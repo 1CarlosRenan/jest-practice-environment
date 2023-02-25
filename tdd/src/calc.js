@@ -1,5 +1,1 @@
-function add(x, y) {
-  return x + y
-}
-
-module.exports = add
+export const add = (x, y) => x + y
