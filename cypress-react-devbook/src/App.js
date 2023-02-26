@@ -1,8 +1,9 @@
+import { Typography } from "@material-ui/core";
 
 function App() {
   return (
     <>
-      <h1>Olá dev!</h1>
+      <Typography variant="h2" component="h2" data-test="heading">Olá dev!</Typography>
     </>
   );
 }
