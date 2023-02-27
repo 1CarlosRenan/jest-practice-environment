@@ -9,9 +9,9 @@ describe("Devbook app", () => {
 
   beforeEach(() => {
     const books = [
-      { name: "Building Microservices", id: 3 },
-      { name: "Domain-driven design", id: 2 },
       { name: "Refactoring", id: 1 },
+      { name: "Domain-driven design", id: 2 },
+      { name: "Building Microservices", id: 3 },
     ];
 
     return books.map((item) =>
@@ -27,7 +27,7 @@ describe("Devbook app", () => {
 
   it("Visits the DevBook", () => {
     cy.visit("http://localhost:3000/");
-    cy.get('h2[data-test="heading"]').contains("Olá dev!");
+    cy.get('h2[data-test="heading"]').contains("Devbook");
   });
 
   it("Shows a book list", () => {

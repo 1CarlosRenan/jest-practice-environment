@@ -1,3 +1,7 @@
 {
-  "books": []
+  "books": [
+    { "name": "Building Microservices", "id": 3 },
+    { "name": "Domain-driven design", "id": 2 },
+    { "name": "Refactoring", "id": 1 }
+  ]
 }
